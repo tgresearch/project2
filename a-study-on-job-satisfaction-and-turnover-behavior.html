@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 A Study on Job Satisfaction and Turnover Behavior | A Data Analysis</title>
+  <meta name="description" content="Chapter 2 A Study on Job Satisfaction and Turnover Behavior | A Data Analysis" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 A Study on Job Satisfaction and Turnover Behavior | A Data Analysis" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 A Study on Job Satisfaction and Turnover Behavior | A Data Analysis" />
+  
+  
+  
+
+<meta name="author" content="Baek kimin" />
+
+
+<meta name="date" content="2020-12-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"/>
+
+<script src="libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">R program Manual</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prerequisites</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#install-r"><i class="fa fa-check"></i>Install R</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#install-rstudio"><i class="fa fa-check"></i>Install RStudio</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#software-information-and-conventions"><i class="fa fa-check"></i>Software information and conventions</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><i class="fa fa-check"></i><b>1</b> A Study on Determinants of Employment Status of University Graduates Youth</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#introduction"><i class="fa fa-check"></i><b>1.1</b> Introduction</a></li>
+<li class="chapter" data-level="1.2" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#data-explanation"><i class="fa fa-check"></i><b>1.2</b> Data Explanation</a></li>
+<li class="chapter" data-level="1.3" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#install-and-load-package"><i class="fa fa-check"></i><b>1.3</b> Install and load package</a></li>
+<li class="chapter" data-level="1.4" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#import-data"><i class="fa fa-check"></i><b>1.4</b> Import Data</a></li>
+<li class="chapter" data-level="1.5" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#exploring-and-preparing-the-data"><i class="fa fa-check"></i><b>1.5</b> Exploring and Preparing the Data</a></li>
+<li class="chapter" data-level="1.6" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#dealing-with-the-missing-data"><i class="fa fa-check"></i><b>1.6</b> Dealing with the missing data</a></li>
+<li class="chapter" data-level="1.7" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#splitting-the-data-train-set-test-set"><i class="fa fa-check"></i><b>1.7</b> Splitting the data (train set &amp; test set)</a></li>
+<li class="chapter" data-level="1.8" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#dealing-with-class-imbalance"><i class="fa fa-check"></i><b>1.8</b> Dealing with Class Imbalance</a></li>
+<li class="chapter" data-level="1.9" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#resampling-methods-to-estimate-model-accuracy"><i class="fa fa-check"></i><b>1.9</b> Resampling methods to estimate model accuracy</a>
+<ul>
+<li class="chapter" data-level="1.9.1" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#estimating-model-accuracy"><i class="fa fa-check"></i><b>1.9.1</b> Estimating model accuracy</a></li>
+<li class="chapter" data-level="1.9.2" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#k-fold-cross-validation"><i class="fa fa-check"></i><b>1.9.2</b> k-fold cross validation</a></li>
+<li class="chapter" data-level="1.9.3" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#repeated-k-fold-cross-validation"><i class="fa fa-check"></i><b>1.9.3</b> repeated k-fold cross validation</a></li>
+<li class="chapter" data-level="1.9.4" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#leave-one-out-cross-validation"><i class="fa fa-check"></i><b>1.9.4</b> leave one out cross validation</a></li>
+<li class="chapter" data-level="1.9.5" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#leave-group-out-cross-validation"><i class="fa fa-check"></i><b>1.9.5</b> leave group out cross validation</a></li>
+<li class="chapter" data-level="1.9.6" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#bootstrap"><i class="fa fa-check"></i><b>1.9.6</b> bootstrap</a></li>
+</ul></li>
+<li class="chapter" data-level="1.10" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#spot-check-machine-learning-algorithms"><i class="fa fa-check"></i><b>1.10</b> Spot-Check Machine Learning Algorithms</a>
+<ul>
+<li class="chapter" data-level="1.10.1" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#cart-algorithm"><i class="fa fa-check"></i><b>1.10.1</b> CART Algorithm</a></li>
+<li class="chapter" data-level="1.10.2" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#bagging-algorithm"><i class="fa fa-check"></i><b>1.10.2</b> Bagging Algorithm</a></li>
+<li class="chapter" data-level="1.10.3" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#randomforest-algorithm"><i class="fa fa-check"></i><b>1.10.3</b> randomforest Algorithm</a></li>
+<li class="chapter" data-level="1.10.4" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#gbm-algorithm"><i class="fa fa-check"></i><b>1.10.4</b> gbm Algorithm</a></li>
+<li class="chapter" data-level="1.10.5" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#logistic-model"><i class="fa fa-check"></i><b>1.10.5</b> logistic model</a></li>
+</ul></li>
+<li class="chapter" data-level="1.11" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#model-evaluation-metrics"><i class="fa fa-check"></i><b>1.11</b> Model Evaluation Metrics</a>
+<ul>
+<li class="chapter" data-level="1.11.1" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#accuracy-and-kappa"><i class="fa fa-check"></i><b>1.11.1</b> Accuracy and Kappa</a></li>
+<li class="chapter" data-level="1.11.2" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#area-under-roc-curve"><i class="fa fa-check"></i><b>1.11.2</b> Area Under ROC Curve</a></li>
+</ul></li>
+<li class="chapter" data-level="1.12" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#the-performance-of-machine-learning-algorithms"><i class="fa fa-check"></i><b>1.12</b> The Performance of Machine Learning Algorithms</a></li>
+<li class="chapter" data-level="1.13" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#improving-model-performance"><i class="fa fa-check"></i><b>1.13</b> Improving Model Performance</a>
+<ul>
+<li class="chapter" data-level="1.13.1" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#random-search"><i class="fa fa-check"></i><b>1.13.1</b> Random Search</a></li>
+<li class="chapter" data-level="1.13.2" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#grid-search"><i class="fa fa-check"></i><b>1.13.2</b> Grid Search</a></li>
+<li class="chapter" data-level="1.13.3" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#adaptive-resampling"><i class="fa fa-check"></i><b>1.13.3</b> Adaptive Resampling</a></li>
+</ul></li>
+<li class="chapter" data-level="1.14" data-path="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html"><a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html#finalize-your-machine-learning-model"><i class="fa fa-check"></i><b>1.14</b> Finalize Your Machine Learning Model</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html"><i class="fa fa-check"></i><b>2</b> A Study on Job Satisfaction and Turnover Behavior</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#introduction-1"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#data-explanation-1"><i class="fa fa-check"></i><b>2.2</b> Data Explanation</a></li>
+<li class="chapter" data-level="2.3" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#import-data-1"><i class="fa fa-check"></i><b>2.3</b> Import Data</a></li>
+<li class="chapter" data-level="2.4" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#exploring-and-preparing-the-data-1"><i class="fa fa-check"></i><b>2.4</b> Exploring and Preparing the Data</a></li>
+<li class="chapter" data-level="2.5" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#splitting-the-data-train-set-test-set-1"><i class="fa fa-check"></i><b>2.5</b> Splitting the data (train set &amp; test set)</a></li>
+<li class="chapter" data-level="2.6" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#dealing-with-class-imbalance-1"><i class="fa fa-check"></i><b>2.6</b> Dealing with Class Imbalance</a></li>
+<li class="chapter" data-level="2.7" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#resampling-methods-to-estimate-model-accuracy-1"><i class="fa fa-check"></i><b>2.7</b> Resampling methods to estimate model accuracy</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#estimating-model-accuracy-1"><i class="fa fa-check"></i><b>2.7.1</b> Estimating model accuracy</a></li>
+<li class="chapter" data-level="2.7.2" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#k-fold-cross-validation-1"><i class="fa fa-check"></i><b>2.7.2</b> k-fold cross validation</a></li>
+<li class="chapter" data-level="2.7.3" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#repeated-k-fold-cross-validation-1"><i class="fa fa-check"></i><b>2.7.3</b> repeated k-fold cross validation</a></li>
+<li class="chapter" data-level="2.7.4" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#leave-one-out-cross-validation-1"><i class="fa fa-check"></i><b>2.7.4</b> leave one out cross validation</a></li>
+<li class="chapter" data-level="2.7.5" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#leave-group-out-cross-validation-1"><i class="fa fa-check"></i><b>2.7.5</b> leave group out cross validation</a></li>
+<li class="chapter" data-level="2.7.6" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#bootstrap-1"><i class="fa fa-check"></i><b>2.7.6</b> bootstrap</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#spot-check-machine-learning-algorithms-1"><i class="fa fa-check"></i><b>2.8</b> Spot-Check Machine Learning Algorithms</a>
+<ul>
+<li class="chapter" data-level="2.8.1" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cart-algorithm-1"><i class="fa fa-check"></i><b>2.8.1</b> CART Algorithm</a></li>
+<li class="chapter" data-level="2.8.2" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#bagging-algorithm-1"><i class="fa fa-check"></i><b>2.8.2</b> Bagging Algorithm</a></li>
+<li class="chapter" data-level="2.8.3" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#randomforest-algorithm-1"><i class="fa fa-check"></i><b>2.8.3</b> randomforest Algorithm</a></li>
+<li class="chapter" data-level="2.8.4" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#gbm-algorithm-1"><i class="fa fa-check"></i><b>2.8.4</b> gbm Algorithm</a></li>
+<li class="chapter" data-level="2.8.5" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#logistic-model-1"><i class="fa fa-check"></i><b>2.8.5</b> logistic model</a></li>
+</ul></li>
+<li class="chapter" data-level="2.9" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#model-evaluation-metrics-1"><i class="fa fa-check"></i><b>2.9</b> Model Evaluation Metrics</a>
+<ul>
+<li class="chapter" data-level="2.9.1" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#accuracy-and-kappa-1"><i class="fa fa-check"></i><b>2.9.1</b> Accuracy and Kappa</a></li>
+<li class="chapter" data-level="2.9.2" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#area-under-roc-curve-1"><i class="fa fa-check"></i><b>2.9.2</b> Area Under ROC Curve</a></li>
+</ul></li>
+<li class="chapter" data-level="2.10" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#the-performance-of-machine-learning-algorithms-1"><i class="fa fa-check"></i><b>2.10</b> The Performance of Machine Learning Algorithms</a></li>
+<li class="chapter" data-level="2.11" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#improving-model-performance-1"><i class="fa fa-check"></i><b>2.11</b> Improving Model Performance</a>
+<ul>
+<li class="chapter" data-level="2.11.1" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#random-search-1"><i class="fa fa-check"></i><b>2.11.1</b> Random Search</a></li>
+<li class="chapter" data-level="2.11.2" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#grid-search-1"><i class="fa fa-check"></i><b>2.11.2</b> Grid Search</a></li>
+<li class="chapter" data-level="2.11.3" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#adaptive-resampling-1"><i class="fa fa-check"></i><b>2.11.3</b> Adaptive Resampling</a></li>
+</ul></li>
+<li class="chapter" data-level="2.12" data-path="a-study-on-job-satisfaction-and-turnover-behavior.html"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#finalize-your-machine-learning-model-1"><i class="fa fa-check"></i><b>2.12</b> Finalize Your Machine Learning Model</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Data Analysis</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="a-study-on-job-satisfaction-and-turnover-behavior" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> A Study on Job Satisfaction and Turnover Behavior</h1>
+<div id="introduction-1" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Introduction</h2>
+<p>Job satisfaction impacts on the turnover intention of employee, which affects the
+turnover behavior. This analysis concerns with the impact of job satisfaction
+on the turnover behavior. Since turnover intention is highly correlated with job
+satisfaction, salary, employment status and etc, we should pay careful attention
+for modeling of those variables as independent variables and turnover behavior
+as a dependent variable in the empirical study for the impact of factors on
+turnover behavior.</p>
+</div>
+<div id="data-explanation-1" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Data Explanation</h2>
+<p>data filename : satisfy.csv</p>
+<table>
+<colgroup>
+<col width="13%" />
+<col width="66%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">variable</th>
+<th align="left">description</th>
+<th align="left">value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">turnover</td>
+<td align="left">Whether you are preparing for job change</td>
+<td align="left">Yes, No</td>
+</tr>
+<tr class="even">
+<td align="left">work_status</td>
+<td align="left">Employment status</td>
+<td align="left">Regular, Temporary, Daily</td>
+</tr>
+<tr class="odd">
+<td align="left">work_hour_type</td>
+<td align="left">Working Hour Form</td>
+<td align="left">Full Time, Part Time</td>
+</tr>
+<tr class="even">
+<td align="left">overtime</td>
+<td align="left">Overtime working per week</td>
+<td align="left">numeric</td>
+</tr>
+<tr class="odd">
+<td align="left">satisfaction_1</td>
+<td align="left">Wages or income</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">satisfaction_2</td>
+<td align="left">Employment stability</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="odd">
+<td align="left">satisfaction_3</td>
+<td align="left">Contents of work (job content)</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">satisfaction_4</td>
+<td align="left">Working environment (facilities, safety, hygiene, etc.)</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="odd">
+<td align="left">satisfaction_5</td>
+<td align="left">Working hours (working hours, number of working days)</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">satisfaction_6</td>
+<td align="left">Personal development potential</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="odd">
+<td align="left">satisfaction_7</td>
+<td align="left">Relationships</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">satisfaction_8</td>
+<td align="left">Welfare benefits system (social insurance and additional benefits)</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="odd">
+<td align="left">satisfaction_9</td>
+<td align="left">Personnel system (promotion system)</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">satisfaction_10</td>
+<td align="left">Social reputation for what you are doing</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="odd">
+<td align="left">satisfaction_11</td>
+<td align="left">Autonomy and authority in what you are doing</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">satisfaction_12</td>
+<td align="left">Social reputation for work</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="odd">
+<td align="left">satisfaction_13</td>
+<td align="left">The match between what you do and your aptitude and interest</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">satisfaction_14</td>
+<td align="left">Job-related education or training</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="odd">
+<td align="left">satisfaction_job</td>
+<td align="left">Overall satisfaction with the current job (job)</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">satisfaction_task</td>
+<td align="left">Overall satisfaction with the main job (task)</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="odd">
+<td align="left">match_1</td>
+<td align="left">Education level-level of match at work level</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">match_2</td>
+<td align="left">Work skill (skill) level-the degree to which one’s skill (skill) level matches</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="odd">
+<td align="left">match_3</td>
+<td align="left">Contents of work-Degree of coincidence with your major (major) at the time of admission</td>
+<td align="left">1~5</td>
+</tr>
+<tr class="even">
+<td align="left">major_knowledge</td>
+<td align="left">Degree of help in work of knowledge in college major</td>
+<td align="left">1~5</td>
+</tr>
+</tbody>
+</table>
+<p>We do not add prompts to R source code in this manual, and we comment out the text output by two hashes ##
+by default.
+Package names are in bold text (e.g., <strong>rpart</strong>), function names are formatted as code (e.g., <code>read.csv()</code>).</p>
+</div>
+<div id="import-data-1" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Import Data</h2>
+<p>We will use the built in <code>read.csv()</code> function call, which reads the data in as a data frame, and assign the data frame to a variable (using <code>&lt;-</code>) so that it is stored in R’s memory. Then we will explore some of the basic arguments that can be supplied to the function. The default for <code>read.csv()</code> is to set the <code>header</code> argument to TRUE. This means that the first row of values in the .csv is set as header information (column names). If your data set does not have a header, set the <code>header</code> argument to FALSE. The <code>stringsAsFactors</code> argument is perhaps the most important argument in <code>read.csv()</code>, particularly if you are working with categorical data. This is because the default behavior of R is to convert character strings into factors, which may make it difficult to do such things as replace values.</p>
+<div class="sourceCode" id="cb62"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb62-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb62-1" aria-hidden="true" tabindex="-1"></a>satisfy_all <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="at">file=</span><span class="st">&quot;satisfy.csv&quot;</span>,<span class="at">header=</span><span class="cn">TRUE</span>,<span class="at">stringsAsFactors =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<p>R is always pointed at a directory on your computer. You can find out which directory by running the <code>getwd()</code> (get working directory) function; this function has no arguments. To change your working directory, use <code>setwd()</code> and specify the path to the desired folder.</p>
+<ul>
+<li><code>getwd()</code></li>
+<li><code>setwd(dir)</code>
+-dir – Specify a working directory. This may be from the root directory (starting with / on a Mac), it may include a double-dot (..) to move locally up a folder from the current directory, and it may include a path from the current directory.</li>
+</ul>
+<div class="sourceCode" id="cb63"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb63-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getwd</span>()</span></code></pre></div>
+<pre><code>## [1] &quot;C:/Users/kimin/OneDrive/project/bookdown-demo-master&quot;</code></pre>
+<div class="sourceCode" id="cb65"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb65-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">&quot;c:/project&quot;</span>)</span></code></pre></div>
+</div>
+<div id="exploring-and-preparing-the-data-1" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Exploring and Preparing the Data</h2>
+<p>The first questions to ask in an investigation of a new dataset should be about
+how the dataset is organized. If you are fortunate, your source will provide a data
+dictionary, a document that describes the dataset’s features. In our case, the used
+car data does not come with this documentation, so we’ll need to create our own.
+The <code>str()</code> function provides a method for displaying the structure of R objects,
+such as data frames, vectors, or lists. It can be used to create the basic outline for our data dictionary:</p>
+<div class="sourceCode" id="cb66"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb66-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(satisfy_all)</span></code></pre></div>
+<pre><code>## &#39;data.frame&#39;:    10839 obs. of  24 variables:
+##  $ turnover         : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 1 1 1 1 1 1 2 2 2 2 ...
+##  $ work_status      : Factor w/ 3 levels &quot;Daily&quot;,&quot;Regular&quot;,..: 3 2 2 2 2 2 1 2 2 3 ...
+##  $ work_hour_type   : Factor w/ 2 levels &quot;Full Time&quot;,&quot;Part Time&quot;: 1 1 1 1 1 1 2 1 1 1 ...
+##  $ overtime         : int  0 5 5 2 0 0 4 10 0 2 ...
+##  $ satisfaction_1   : int  1 2 3 4 3 3 4 3 3 2 ...
+##  $ satisfaction_2   : int  4 4 4 4 3 4 3 3 5 4 ...
+##  $ satisfaction_3   : int  5 5 4 4 3 4 3 4 3 4 ...
+##  $ satisfaction_4   : int  5 4 3 2 4 4 3 3 4 5 ...
+##  $ satisfaction_5   : int  3 4 3 4 3 5 3 3 5 4 ...
+##  $ satisfaction_6   : int  5 3 3 4 4 4 2 4 3 4 ...
+##  $ satisfaction_7   : int  2 4 4 4 3 4 2 3 5 4 ...
+##  $ satisfaction_8   : int  1 4 3 3 3 4 3 3 4 4 ...
+##  $ satisfaction_9   : int  1 3 4 3 3 3 2 3 4 4 ...
+##  $ satisfaction_10  : int  3 4 3 4 3 4 2 4 4 4 ...
+##  $ satisfaction_11  : int  5 4 3 4 3 4 2 3 5 4 ...
+##  $ satisfaction_12  : int  3 3 3 4 3 3 3 3 4 4 ...
+##  $ satisfaction_13  : int  4 5 4 4 3 4 3 4 2 4 ...
+##  $ satisfaction_14  : int  2 3 3 4 3 3 3 3 4 4 ...
+##  $ satisfaction_job : int  3 4 3 4 3 4 3 3 3 5 ...
+##  $ satisfaction_task: int  4 5 4 4 3 4 3 3 3 4 ...
+##  $ match_1          : int  2 2 3 2 3 2 3 3 2 4 ...
+##  $ match_2          : int  1 4 3 2 3 2 3 4 2 4 ...
+##  $ match_3          : int  1 3 2 1 3 5 1 4 1 5 ...
+##  $ major_knowledge  : int  1 4 2 2 3 4 2 4 1 5 ...</code></pre>
+<p>For such a simple command, we learn a wealth of information about the dataset.
+The statement <code>10839 obs</code> informs us that the data includes 10,839 observations, which is just another way of saying that the dataset contains 10,839 records or examples. The number of observations is often simply abbreviated as n.
+The <code>24 variables</code> statement refers to the sixteen features that were recorded in the data. These features are listed by name on separate lines. Looking at the line for the feature called <code>work_status</code>, we note some additional details:</p>
+<p><code>work_status      : Factor w/ 3 levels "Daily","Regular",..: 3 2 2 2 2</code></p>
+<p>After the variable’s name, the Factor label tells us that the feature is factor type. In this dataset, 3 of the variables are factor while others are noted as int which refers to the integer type.
+In R, we can get summary statistics for a dataset by using the <code>summary()</code> function. To get the summary statistics for our satisfy dataset, we pass the name of the dataset to the <code>summary()</code> function.</p>
+<div class="sourceCode" id="cb68"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb68-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(satisfy_all)</span></code></pre></div>
+<pre><code>##  turnover      work_status     work_hour_type    overtime      satisfaction_1 
+##  No :8010   Daily    : 166   Full Time:9803   Min.   : 0.000   Min.   :1.000  
+##  Yes:2829   Regular  :8789   Part Time:1036   1st Qu.: 0.000   1st Qu.:3.000  
+##             Temporary:1884                    Median : 0.000   Median :3.000  
+##                                               Mean   : 3.739   Mean   :3.231  
+##                                               3rd Qu.: 5.000   3rd Qu.:4.000  
+##                                               Max.   :60.000   Max.   :5.000  
+##  satisfaction_2  satisfaction_3 satisfaction_4 satisfaction_5  satisfaction_6 
+##  Min.   :1.000   Min.   :1.00   Min.   :1.00   Min.   :1.000   Min.   :1.000  
+##  1st Qu.:3.000   1st Qu.:3.00   1st Qu.:3.00   1st Qu.:3.000   1st Qu.:3.000  
+##  Median :4.000   Median :4.00   Median :4.00   Median :4.000   Median :4.000  
+##  Mean   :3.739   Mean   :3.72   Mean   :3.82   Mean   :3.653   Mean   :3.503  
+##  3rd Qu.:4.000   3rd Qu.:4.00   3rd Qu.:4.00   3rd Qu.:4.000   3rd Qu.:4.000  
+##  Max.   :5.000   Max.   :5.00   Max.   :5.00   Max.   :5.000   Max.   :5.000  
+##  satisfaction_7  satisfaction_8  satisfaction_9  satisfaction_10
+##  Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.00   
+##  1st Qu.:3.000   1st Qu.:3.000   1st Qu.:3.000   1st Qu.:3.00   
+##  Median :4.000   Median :4.000   Median :3.000   Median :4.00   
+##  Mean   :3.831   Mean   :3.465   Mean   :3.207   Mean   :3.59   
+##  3rd Qu.:4.000   3rd Qu.:4.000   3rd Qu.:4.000   3rd Qu.:4.00   
+##  Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.00   
+##  satisfaction_11 satisfaction_12 satisfaction_13 satisfaction_14
+##  Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.00   
+##  1st Qu.:3.000   1st Qu.:3.000   1st Qu.:3.000   1st Qu.:3.00   
+##  Median :4.000   Median :4.000   Median :4.000   Median :4.00   
+##  Mean   :3.658   Mean   :3.604   Mean   :3.672   Mean   :3.48   
+##  3rd Qu.:4.000   3rd Qu.:4.000   3rd Qu.:4.000   3rd Qu.:4.00   
+##  Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.00   
+##  satisfaction_job satisfaction_task    match_1         match_2     
+##  Min.   :1.000    Min.   :1.000     Min.   :1.000   Min.   :1.000  
+##  1st Qu.:3.000    1st Qu.:3.000     1st Qu.:3.000   1st Qu.:3.000  
+##  Median :4.000    Median :4.000     Median :3.000   Median :3.000  
+##  Mean   :3.541    Mean   :3.619     Mean   :2.942   Mean   :2.959  
+##  3rd Qu.:4.000    3rd Qu.:4.000     3rd Qu.:3.000   3rd Qu.:3.000  
+##  Max.   :5.000    Max.   :5.000     Max.   :5.000   Max.   :5.000  
+##     match_3      major_knowledge
+##  Min.   :1.000   Min.   :1.000  
+##  1st Qu.:2.000   1st Qu.:2.000  
+##  Median :3.000   Median :3.000  
+##  Mean   :3.175   Mean   :3.208  
+##  3rd Qu.:4.000   3rd Qu.:4.000  
+##  Max.   :5.000   Max.   :5.000</code></pre>
+<p>Changing the order of factor levels, You can use <code>fct_relevel()</code>. It takes a factor, f, and then any number of levels that you want to move to the front of the line.</p>
+<div class="sourceCode" id="cb70"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb70-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb70-1" aria-hidden="true" tabindex="-1"></a>satisfy_all<span class="sc">$</span>turnover <span class="ot">&lt;-</span> <span class="fu">fct_relevel</span>(satisfy_all<span class="sc">$</span>turnover,<span class="st">&quot;Yes&quot;</span>,<span class="st">&quot;No&quot;</span>)</span>
+<span id="cb70-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb70-2" aria-hidden="true" tabindex="-1"></a>satisfy_all<span class="sc">$</span>work_status <span class="ot">&lt;-</span> <span class="fu">fct_relevel</span>(satisfy_all<span class="sc">$</span>work_status,<span class="st">&quot;Regular&quot;</span>,<span class="st">&quot;Temporary&quot;</span>,<span class="st">&quot;Daily&quot;</span>)</span></code></pre></div>
+<p>The tidyverse provides us with a powerful and flexible package for visualizing data called ggplot2. The functions provided by ggplot2 follow a principle and consistent syntax known as the grammar of graphics. For readers who are interested in an in-depth explanation of ggplot2 and the grammar of graphics, we refer you to the books ggplot2 by Hadley Wickham and The Grammar of Graphics by Leland Wilkinson.</p>
+<div class="sourceCode" id="cb71"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb71-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb71-1" aria-hidden="true" tabindex="-1"></a>satisfy_all <span class="sc">%&gt;%</span></span>
+<span id="cb71-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb71-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(turnover)) <span class="sc">+</span></span>
+<span id="cb71-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb71-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">color=</span><span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-10-1.png" width="384" /></p>
+<div class="sourceCode" id="cb72"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb72-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb72-1" aria-hidden="true" tabindex="-1"></a>satisfy_all <span class="sc">%&gt;%</span></span>
+<span id="cb72-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb72-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(overtime)) <span class="sc">+</span></span>
+<span id="cb72-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb72-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">color=</span><span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-10-2.png" width="384" /></p>
+<div class="sourceCode" id="cb74"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb74-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb74-1" aria-hidden="true" tabindex="-1"></a>satisfy_all <span class="sc">%&gt;%</span></span>
+<span id="cb74-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb74-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(overtime)) <span class="sc">+</span></span>
+<span id="cb74-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb74-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">color=</span><span class="st">&quot;blue&quot;</span>)</span></code></pre></div>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-10-3.png" width="384" /></p>
+</div>
+<div id="splitting-the-data-train-set-test-set-1" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Splitting the data (train set &amp; test set)</h2>
+<p>The <code>createDataPartition()</code> function in <strong>caret</strong> package creates stratified random samples from the original data and takes three main arguments. The first argument (<code>y</code>) specifies the class or dependent variable, the second argument (<code>p</code>) specifies the proportion of examples that should be assigned to the training set, and the third argument (list) specifies the format of the results that are returned. This argument can be either <code>TRUE</code> or <code>FALSE</code>. If it is <code>TRUE</code>, then the results of the function are returned as a list (single row), but if it is <code>FALSE</code>, then the results are returned as a matrix (several rows). Note that we use the <code>set.seed()</code> function here again. By setting the seed value, we ensure that we get the same data partitions every time we run the code.</p>
+<div class="sourceCode" id="cb75"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb75-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a vector of indices which is an 80% random sample</span></span>
+<span id="cb75-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb75-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb75-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb75-3" aria-hidden="true" tabindex="-1"></a>index <span class="ot">&lt;-</span> <span class="fu">createDataPartition</span>(satisfy_all<span class="sc">$</span>turnover, <span class="at">p =</span> <span class="fl">0.8</span>, <span class="at">list =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb75-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb75-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb75-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb75-5" aria-hidden="true" tabindex="-1"></a>satisfy_train <span class="ot">&lt;-</span> satisfy_all[index, ]  </span>
+<span id="cb75-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb75-6" aria-hidden="true" tabindex="-1"></a><span class="fu">prop.table</span>(<span class="fu">table</span>(satisfy_train<span class="sc">$</span>turnover))</span></code></pre></div>
+<pre><code>## 
+##       Yes        No 
+## 0.2610701 0.7389299</code></pre>
+<div class="sourceCode" id="cb77"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb77-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb77-1" aria-hidden="true" tabindex="-1"></a>satisfy_test <span class="ot">&lt;-</span> satisfy_all[<span class="sc">-</span>index, ] </span>
+<span id="cb77-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb77-2" aria-hidden="true" tabindex="-1"></a><span class="fu">prop.table</span>(<span class="fu">table</span>(satisfy_test<span class="sc">$</span>turnover))</span></code></pre></div>
+<pre><code>## 
+##       Yes        No 
+## 0.2607291 0.7392709</code></pre>
+</div>
+<div id="dealing-with-class-imbalance-1" class="section level2" number="2.6">
+<h2><span class="header-section-number">2.6</span> Dealing with Class Imbalance</h2>
+<p>Class imbalance is a common problem when working with real-world data. It degrades the performance of a machine learning model because it biases the model toward the majority class at the expense of the minority class. Before we build a model, we need to address this problem. There are several approaches to solving class imbalance problems; one of them is by using a synthetic minority oversampling technique (SMOTE).</p>
+<p>This technique works by creating new synthetic samples from the minority class to resolve the imbalance. In R, the <strong>DMwR</strong> package provides us with a function called <code>SMOTE()</code>, which we can use to balance our training data. The <code>SMOTE()</code> function accepts arguments that describe the formula for the prediction problem, the data frame containing the original imbalanced data, a specification of how many extra cases from the minority class are to be generated (<code>perc.over</code>), and a specification for how many extra cases from the majority class should be selected for each case generated from the minority class (<code>perc.under</code>). The output of the function is a data frame of the balanced data.</p>
+<div class="sourceCode" id="cb79"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb79-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb79-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb79-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb79-2" aria-hidden="true" tabindex="-1"></a>satisfy_train <span class="ot">&lt;-</span> <span class="fu">SMOTE</span>(turnover <span class="sc">~</span> ., <span class="fu">data.frame</span>(satisfy_train),</span>
+<span id="cb79-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb79-3" aria-hidden="true" tabindex="-1"></a>                      <span class="at">perc.over =</span> <span class="dv">100</span>, <span class="at">perc.under =</span> <span class="dv">200</span>)</span></code></pre></div>
+</div>
+<div id="resampling-methods-to-estimate-model-accuracy-1" class="section level2" number="2.7">
+<h2><span class="header-section-number">2.7</span> Resampling methods to estimate model accuracy</h2>
+<p>When you are building a predictive model, you need to evaluate the capability of the model on unseen data. This is typically done by estimating accuracy using data that was not used to train the model. The caret package in R provides a number of methods to estimate the accuracy of a machine learning algorithm. In this section you will discover 5 approaches for estimating model performance on unseen data.</p>
+<div id="estimating-model-accuracy-1" class="section level3" number="2.7.1">
+<h3><span class="header-section-number">2.7.1</span> Estimating model accuracy</h3>
+<p>When working on a project you often only have a limited set of data and you need to choose carefully how you use it. Predictive models required data on which to train. You also need a dataset that the model has not seen during training on which it can make predictions. The accuracy of the model predictions on data unseen during training can be used as an estimate for the accuracy of the model on unseen data in general.</p>
+<p>You cannot estimate the accuracy of the model on the data used to train it. An ideal model could just remember all of the training instances and make perfect predictions. You must hold data aside primarily for the purposes of model evaluation.</p>
+<p>There are methods that you can use if you have a lot of data and do not need to be careful about how it is spent during training. More commonly your dataset has a fixed size and you need to use statistical techniques that make good use of a limited size dataset. These statistical methods are often called resampling methods as they take multiple samples or make multiple splits of your dataset into portions that you can use for model training and model testing. In the following sections you are going to discover how to use five different resampling methods
+that you can use to evaluate the accuracy of your data in R.</p>
+</div>
+<div id="k-fold-cross-validation-1" class="section level3" number="2.7.2">
+<h3><span class="header-section-number">2.7.2</span> k-fold cross validation</h3>
+<p>Of all the approaches to cross-validation, the most commonly used is k-fold cross-validation. In this approach, after the test data has been sequestered, the remaining data is divided into k completely separate random partitions of approximately equal size. These partitions are known as folds. The folds represent the data that will be used to validate the model during each of the k iterations of the repeated holdout. Although k can be set to any value, in practice, k is often set to either 5 or 10.</p>
+<div class="sourceCode" id="cb80"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb80-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb80-1" aria-hidden="true" tabindex="-1"></a>ctrl_cv <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;cv&quot;</span>, <span class="at">number =</span> <span class="dv">5</span>)</span>
+<span id="cb80-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb80-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb80-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb80-3" aria-hidden="true" tabindex="-1"></a>model_rpart_cv <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> .,</span>
+<span id="cb80-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb80-4" aria-hidden="true" tabindex="-1"></a>                           <span class="at">data =</span> satisfy_train,</span>
+<span id="cb80-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb80-5" aria-hidden="true" tabindex="-1"></a>                           <span class="at">metric =</span> <span class="st">&quot;Accuracy&quot;</span>,</span>
+<span id="cb80-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb80-6" aria-hidden="true" tabindex="-1"></a>                           <span class="at">method =</span> <span class="st">&quot;rpart&quot;</span>,</span>
+<span id="cb80-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb80-7" aria-hidden="true" tabindex="-1"></a>                           <span class="at">trControl =</span> ctrl_cv)</span></code></pre></div>
+</div>
+<div id="repeated-k-fold-cross-validation-1" class="section level3" number="2.7.3">
+<h3><span class="header-section-number">2.7.3</span> repeated k-fold cross validation</h3>
+<p>Repeated k-fold is the most preferred cross-validation technique for both classification and regression machine learning models. Shuffling and random sampling of the data set multiple times is the core procedure of repeated k-fold algorithm and it results in making a robust model as it covers the maximum training and testing operations. The working of this cross-validation technique to evaluate the accuracy of a machine learning model depends upon 2 parameters. The first parameter is k which is an integer value and it states that the given dataset will be split into K folds(or subsets). Among the k folds, the model is trained on the k-1 subsets and the remaining subset will be used to evaluate the model’s performance. These steps will be repeated up to a certain number of times which will be decided by the second parameter of this algorithm and thus it got its name as Repeated k-fold i.e., the k-fold cross-validation algorithm is repeated a certain number of times.</p>
+<div class="sourceCode" id="cb81"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb81-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb81-1" aria-hidden="true" tabindex="-1"></a>ctrl_repeatedcv <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;repeatedcv&quot;</span>, </span>
+<span id="cb81-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb81-2" aria-hidden="true" tabindex="-1"></a>                                <span class="at">number =</span> <span class="dv">10</span>, <span class="at">repeats =</span> <span class="dv">3</span>)</span>
+<span id="cb81-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb81-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb81-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb81-4" aria-hidden="true" tabindex="-1"></a>model_rpart_repeatedcv <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> .,</span>
+<span id="cb81-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb81-5" aria-hidden="true" tabindex="-1"></a>                        <span class="at">data =</span> satisfy_train,</span>
+<span id="cb81-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb81-6" aria-hidden="true" tabindex="-1"></a>                        <span class="at">metric =</span> <span class="st">&quot;Accuracy&quot;</span>,</span>
+<span id="cb81-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb81-7" aria-hidden="true" tabindex="-1"></a>                        <span class="at">method =</span> <span class="st">&quot;rpart&quot;</span>,</span>
+<span id="cb81-8"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb81-8" aria-hidden="true" tabindex="-1"></a>                        <span class="at">trControl =</span> ctrl_repeatedcv)</span></code></pre></div>
+</div>
+<div id="leave-one-out-cross-validation-1" class="section level3" number="2.7.4">
+<h3><span class="header-section-number">2.7.4</span> leave one out cross validation</h3>
+<p>Another common approach to cross-validation is the leave-one-out cross-validation
+method (LOOCV). The approach is essentially k-fold cross-validation with k set to n (the number of instances in the dataset). In the LOOCV approach, during the first iteration, the first instance is held out for validation while the rest of the data is used to train the model.
+Then the performance of the model is evaluated against the single instance that was
+held out. This process is repeated n-1 additional times until all the instances in the dataset have been used once for validation. After the last iteration, we end up with n estimates of the model’s performance from each of the iterations. The average of these estimates is used as the LOOCV estimate of model performance.</p>
+<div class="sourceCode" id="cb82"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb82-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb82-1" aria-hidden="true" tabindex="-1"></a>ctrl_loocv <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;LOOCV&quot;</span>)</span>
+<span id="cb82-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb82-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb82-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb82-3" aria-hidden="true" tabindex="-1"></a>model_rpart_loocv <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> .,</span>
+<span id="cb82-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb82-4" aria-hidden="true" tabindex="-1"></a>                           <span class="at">data =</span> satisfy_train,</span>
+<span id="cb82-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb82-5" aria-hidden="true" tabindex="-1"></a>                           <span class="at">metric =</span> <span class="st">&quot;Accuracy&quot;</span>,</span>
+<span id="cb82-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb82-6" aria-hidden="true" tabindex="-1"></a>                           <span class="at">method =</span> <span class="st">&quot;rpart&quot;</span>,</span>
+<span id="cb82-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb82-7" aria-hidden="true" tabindex="-1"></a>                           <span class="at">trControl =</span> ctrl_loocv)</span></code></pre></div>
+</div>
+<div id="leave-group-out-cross-validation-1" class="section level3" number="2.7.5">
+<h3><span class="header-section-number">2.7.5</span> leave group out cross validation</h3>
+<p>This approach is similar to k-fold cross-validation but with one notable
+difference. In this approach, instead of creating a set number of folds (validation sets) at the beginning of the process, as we do in k-fold cross-validation, the random sample that makes up the validation set is created during each iteration
+During the first iteration, a random sampling without replacement approach is used
+to create the validation set. This dataset is held out for validation, and the remainder of the data is used to train the model. In the second iteration, a new independent validation set is randomly selected. Because of the random nature of the sampling approach, it is possible and likely that some of the instances selected as part of this new validation set were also selected as part of the validation set in the previous iteration.</p>
+<div class="sourceCode" id="cb83"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb83-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb83-1" aria-hidden="true" tabindex="-1"></a>ctrl_lgocv <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;LGOCV&quot;</span>, <span class="at">p =</span> .<span class="dv">1</span>, <span class="at">number =</span> <span class="dv">10</span>)</span>
+<span id="cb83-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb83-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb83-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb83-3" aria-hidden="true" tabindex="-1"></a>model_rpart_lgocv <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> .,</span>
+<span id="cb83-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb83-4" aria-hidden="true" tabindex="-1"></a>                           <span class="at">data =</span> satisfy_train,</span>
+<span id="cb83-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb83-5" aria-hidden="true" tabindex="-1"></a>                           <span class="at">metric =</span> <span class="st">&quot;Accuracy&quot;</span>,</span>
+<span id="cb83-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb83-6" aria-hidden="true" tabindex="-1"></a>                           <span class="at">method =</span> <span class="st">&quot;rpart&quot;</span>,</span>
+<span id="cb83-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb83-7" aria-hidden="true" tabindex="-1"></a>                           <span class="at">trControl =</span> ctrl_lgocv)</span></code></pre></div>
+</div>
+<div id="bootstrap-1" class="section level3" number="2.7.6">
+<h3><span class="header-section-number">2.7.6</span> bootstrap</h3>
+<p>The basic idea behind bootstrap sampling is to create a training dataset from
+the original data using a random sampling with replacement approach. A version of this technique, known as the 0.632 bootstrap, involves random sampling a dataset with n instances, n different times with replacement, to create another dataset also with n instances. This new dataset is used for training, while the instances from the original data, which were not selected as part of the training data, are used for validation.</p>
+<div class="sourceCode" id="cb84"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb84-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb84-1" aria-hidden="true" tabindex="-1"></a>ctrl_boot <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;boot632&quot;</span>, <span class="at">number =</span> <span class="dv">3</span>)</span>
+<span id="cb84-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb84-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb84-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb84-3" aria-hidden="true" tabindex="-1"></a>model_rpart_boot <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> .,</span>
+<span id="cb84-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb84-4" aria-hidden="true" tabindex="-1"></a>                           <span class="at">data =</span> satisfy_train,</span>
+<span id="cb84-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb84-5" aria-hidden="true" tabindex="-1"></a>                           <span class="at">metric =</span> <span class="st">&quot;Accuracy&quot;</span>,</span>
+<span id="cb84-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb84-6" aria-hidden="true" tabindex="-1"></a>                           <span class="at">method =</span> <span class="st">&quot;rpart&quot;</span>,</span>
+<span id="cb84-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb84-7" aria-hidden="true" tabindex="-1"></a>                           <span class="at">trControl =</span> ctrl_boot)</span></code></pre></div>
+</div>
+</div>
+<div id="spot-check-machine-learning-algorithms-1" class="section level2" number="2.8">
+<h2><span class="header-section-number">2.8</span> Spot-Check Machine Learning Algorithms</h2>
+<p>What algorithm should you use on your dataset? This is the most common question in applied machine learning. It’s a question that can only be answered by trial and error, or what I call: spot-checking algorithms. In this session you will discover how to spot-check algorithms on a dataset using R.</p>
+<div id="cart-algorithm-1" class="section level3" number="2.8.1">
+<h3><span class="header-section-number">2.8.1</span> CART Algorithm</h3>
+<p>The CART algorithm is implemented in R as part of the rpart package. This package provides a similarly named function <code>rpart()</code>, which provides an implementation of CART (Classification And Regression Trees) for classification and regression.
+This function takes three primary arguments. The first is the
+prediction formula, which we specify as <code>employ ~ .</code> to mean that our model should use all the other variables in the dataset as predictors for the <code>employ</code> variable. The second argument is the method, which we specify as <code>class</code>. This means that we are building a classification tree. The final argument is the training dataset that will be used to build the model.</p>
+<div class="sourceCode" id="cb85"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb85-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Building a CART model</span></span>
+<span id="cb85-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb85-2" aria-hidden="true" tabindex="-1"></a>model_rpart <span class="ot">&lt;-</span> <span class="fu">rpart</span>(turnover <span class="sc">~</span> .,<span class="at">method =</span> <span class="st">&quot;class&quot;</span>,</span>
+<span id="cb85-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb85-3" aria-hidden="true" tabindex="-1"></a>                     <span class="at">data =</span> satisfy_train, </span>
+<span id="cb85-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb85-4" aria-hidden="true" tabindex="-1"></a>                     <span class="at">control =</span> <span class="fu">rpart.control</span>(<span class="at">maxdepth =</span> <span class="dv">7</span>,</span>
+<span id="cb85-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb85-5" aria-hidden="true" tabindex="-1"></a>                                           <span class="at">cp =</span> <span class="fl">0.005</span>))</span></code></pre></div>
+<p>Now that we’ve trained our decision tree model, let’s visualize it. To do so, we use the <code>rpart.plot()</code> function from the similarly named rpart.plot package.</p>
+<div class="sourceCode" id="cb86"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb86-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb86-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the model</span></span>
+<span id="cb86-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb86-2" aria-hidden="true" tabindex="-1"></a><span class="fu">rpart.plot</span>(<span class="at">x =</span> model_rpart, <span class="at">yesno =</span> <span class="dv">2</span>, <span class="at">type =</span> <span class="dv">0</span>, <span class="at">extra =</span> <span class="dv">0</span>)</span></code></pre></div>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+</div>
+<div id="bagging-algorithm-1" class="section level3" number="2.8.2">
+<h3><span class="header-section-number">2.8.2</span> Bagging Algorithm</h3>
+<p>One of the most common ensemble learning approaches is known as bagging, which
+stands for bootstrap aggregating. The name comes from the fact that bagging ensembles use a bootstrap sampling approach for the allocation function, which is used to generate the data assigned to each model in the ensemble. Bagging ensembles are typically made up of homogenous learners, which are trained independently and in parallel.</p>
+<p>Let’s start by training a bagged tree model. You’ll be using the <code>bagging()</code> function from the <code>ipred</code> package. The number of bagged trees can be specified using the nbagg parameter, but here we will use the default (25).</p>
+<p>If we want to estimate the model’s accuracy using the “out-of-bag” (OOB) samples, we can set the the <code>coob</code> parameter to TRUE. The OOB samples are the training obsevations that were not selected into the bootstrapped sample (used in training). Since these observations were not used in training, we can use them instead to evaluate the accuracy of the model (done automatically inside the <code>bagging()</code> function).</p>
+<div class="sourceCode" id="cb87"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb87-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Bagging is a randomized model, so let&#39;s set a seed (123) for reproducibility</span></span>
+<span id="cb87-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb87-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb87-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb87-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Building a bagged model</span></span>
+<span id="cb87-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb87-4" aria-hidden="true" tabindex="-1"></a>model_bagging <span class="ot">&lt;-</span> <span class="fu">bagging</span>(<span class="at">formula =</span> turnover <span class="sc">~</span> ., </span>
+<span id="cb87-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb87-5" aria-hidden="true" tabindex="-1"></a>                         <span class="at">data =</span> satisfy_train,</span>
+<span id="cb87-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb87-6" aria-hidden="true" tabindex="-1"></a>                         <span class="at">coob =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+</div>
+<div id="randomforest-algorithm-1" class="section level3" number="2.8.3">
+<h3><span class="header-section-number">2.8.3</span> randomforest Algorithm</h3>
+<p>One of the most popular bagging ensemble methods is the random forests or decision
+tree forests ensemble technique. It gets its name from the fact that the ensemble consists of a large number of decision tree learners (which are collectively called a forest) and that its allocation function combines both bootstrap sampling and random feature selection to generate the data assigned to each learner in the ensemble. By using only a random subset of the full feature set, random forests are able to handle very wide datasets (datasets with a large number of features).
+To illustrate the random forests ensemble technique in R, we use the <code>rf</code> method
+in caret, which depends on the aptly named randomForest package. Using the
+<code>modelLookup()</code> command for the <code>rf</code> method reveals that it has only one tunable
+parameter: <code>mtry</code>. This is the number of randomly selected features to consider at each split (more on this shortly).</p>
+<div class="sourceCode" id="cb88"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb88-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb88-1" aria-hidden="true" tabindex="-1"></a><span class="fu">modelLookup</span>(<span class="st">&quot;rf&quot;</span>)</span></code></pre></div>
+<pre><code>##   model parameter                         label forReg forClass probModel
+## 1    rf      mtry #Randomly Selected Predictors   TRUE     TRUE      TRUE</code></pre>
+<p>Based on the documentation provided by the randomForest package, the default
+value for mtry is the square root of the number of features in the dataset when working on a classification problem.</p>
+<div class="sourceCode" id="cb90"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb90-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb90-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Building a Random Forest model</span></span>
+<span id="cb90-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb90-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)  <span class="co"># for reproducibility</span></span>
+<span id="cb90-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb90-3" aria-hidden="true" tabindex="-1"></a>model_rf <span class="ot">&lt;-</span> <span class="fu">randomForest</span>(<span class="at">formula =</span> turnover <span class="sc">~</span> ., </span>
+<span id="cb90-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb90-4" aria-hidden="true" tabindex="-1"></a>                         <span class="at">data =</span> satisfy_train)</span></code></pre></div>
+</div>
+<div id="gbm-algorithm-1" class="section level3" number="2.8.4">
+<h3><span class="header-section-number">2.8.4</span> gbm Algorithm</h3>
+<p>Boosting is a method of converting weak learners into strong learners. In boosting, each new tree is a fit on a modified version of the original data set. The gradient boosting algorithm (gbm) can be most easily explained by first introducing the AdaBoost Algorithm.The AdaBoost Algorithm begins by training a decision tree in which each observation is assigned an equal weight. After evaluating the first tree, we increase the weights of those observations that are difficult to classify and lower the weights for those that are easy to classify. The second tree is therefore grown on this weighted data. Here, the idea is to improve upon the predictions of the first tree. Our new model is therefore Tree 1 + Tree 2. We then compute the classification error from this new 2-tree ensemble model and grow a third tree to predict the revised residuals. We repeat this process for a specified number of iterations. Subsequent trees help us to classify observations that are not well classified by the previous trees. Predictions of the final ensemble model is therefore the weighted sum of the predictions made by the previous tree models.
+In order to train a <code>gbm</code> model in R, you will first have to install and call the gbm library. The gbm function requires you to specify certain arguments. You will begin by specifying the formula. This will include your response and predictor variables. Next, you will specify the distribution of your response variable. If nothing is specified, then gbm will try to guess. Some commonly used distributions include- “<code>bernoulli</code>” (logistic regression for 0–1 outcome), “<code>gaussian</code>” (squared errors), “<code>tdist</code>”(t-distribution loss), and “<code>poisson</code>” (count outcomes). Finally, we will specify the data and the n.trees argument (after all gbm is an ensemble of trees!) By default, the gbm model will assume 100 trees, which can provide is a good estimate of our gbm’s performance.</p>
+<div class="sourceCode" id="cb91"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb91-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Building a 10000-tree GBM model</span></span>
+<span id="cb91-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &quot;yes&quot; to 1, &quot;no&quot; to 0</span></span>
+<span id="cb91-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-3" aria-hidden="true" tabindex="-1"></a>gbm_train <span class="ot">&lt;-</span> satisfy_train</span>
+<span id="cb91-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-4" aria-hidden="true" tabindex="-1"></a>gbm_train<span class="sc">$</span>turnover <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(gbm_train<span class="sc">$</span>turnover <span class="sc">==</span> <span class="st">&quot;Yes&quot;</span>, <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb91-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb91-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-6" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb91-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-7" aria-hidden="true" tabindex="-1"></a>model_gbm <span class="ot">&lt;-</span> <span class="fu">gbm</span>(<span class="at">formula =</span> turnover <span class="sc">~</span> ., </span>
+<span id="cb91-8"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-8" aria-hidden="true" tabindex="-1"></a>                 <span class="at">distribution =</span> <span class="st">&quot;bernoulli&quot;</span>, </span>
+<span id="cb91-9"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-9" aria-hidden="true" tabindex="-1"></a>                 <span class="at">data =</span> gbm_train,</span>
+<span id="cb91-10"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb91-10" aria-hidden="true" tabindex="-1"></a>                 <span class="at">n.trees =</span> <span class="dv">10000</span>)</span></code></pre></div>
+</div>
+<div id="logistic-model-1" class="section level3" number="2.8.5">
+<h3><span class="header-section-number">2.8.5</span> logistic model</h3>
+<p>you used the <code>glm()</code> function to build a logistic regression model. As with many of R’s machine learning methods, you can apply the <code>predict()</code> function to the model object to forecast future behavior. By default, <code>predict()</code> outputs predictions in terms of log odds unless <code>type = "response"</code> is specified. This converts the log odds to probabilities.</p>
+<div class="sourceCode" id="cb92"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb92-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb92-1" aria-hidden="true" tabindex="-1"></a>model_logistic <span class="ot">&lt;-</span> <span class="fu">glm</span>(turnover <span class="sc">~</span>. ,<span class="at">data =</span> satisfy_train, </span>
+<span id="cb92-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb92-2" aria-hidden="true" tabindex="-1"></a>                      <span class="at">family=</span><span class="st">&quot;binomial&quot;</span>)</span></code></pre></div>
+</div>
+</div>
+<div id="model-evaluation-metrics-1" class="section level2" number="2.9">
+<h2><span class="header-section-number">2.9</span> Model Evaluation Metrics</h2>
+<p>What metrics can you use to evaluate your machine learning algorithms? In this lesson you will discover how you can evaluate your machine learning algorithms in R using a number of standard evaluation metrics. After completing this lesson you will know:</p>
+<ul>
+<li>How to use Accuracy and Kappa to evaluate model skill on classification problems.</li>
+<li>How to use Area Under ROC Curve, sensitivity and specificity to evaluate model skill on binary classification problems.</li>
+</ul>
+<div id="accuracy-and-kappa-1" class="section level3" number="2.9.1">
+<h3><span class="header-section-number">2.9.1</span> Accuracy and Kappa</h3>
+<p>Accuracy and Kappa are the default metrics used to evaluate algorithms on binary and multiclass classification datasets in caret. Accuracy is the percentage of correctly classified instances out of all instances. It is more useful on a binary classification than multi-class classification problem because it can be less clear exactly how the accuracy breaks down across those classes.
+Kappa or Cohen’s Kappa is like classification accuracy, except that it is normalized at the baseline of random chance on your dataset. It is a more useful measure to use on problems that have an imbalance in the classes (e.g. a 70% to 30% split for classes 0 and 1 and you can
+achieve 70% accuracy by predicting all instances are for class 0).</p>
+<div class="sourceCode" id="cb93"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb93-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb93-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Accuracy and Kappa</span></span>
+<span id="cb93-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb93-2" aria-hidden="true" tabindex="-1"></a>ctrl_cv <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;cv&quot;</span>, <span class="at">number =</span> <span class="dv">5</span>)</span>
+<span id="cb93-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb93-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb93-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb93-4" aria-hidden="true" tabindex="-1"></a>model_glm_cv_accuracy <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> .,</span>
+<span id="cb93-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb93-5" aria-hidden="true" tabindex="-1"></a>                        <span class="at">data =</span> satisfy_train,</span>
+<span id="cb93-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb93-6" aria-hidden="true" tabindex="-1"></a>                        <span class="at">metric =</span> <span class="st">&quot;Accuracy&quot;</span>,</span>
+<span id="cb93-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb93-7" aria-hidden="true" tabindex="-1"></a>                        <span class="at">method =</span> <span class="st">&quot;glm&quot;</span>, <span class="at">family =</span> <span class="st">&quot;binomial&quot;</span>,</span>
+<span id="cb93-8"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb93-8" aria-hidden="true" tabindex="-1"></a>                        <span class="at">trControl =</span> ctrl_cv)</span></code></pre></div>
+</div>
+<div id="area-under-roc-curve-1" class="section level3" number="2.9.2">
+<h3><span class="header-section-number">2.9.2</span> Area Under ROC Curve</h3>
+<p>ROC metrics are only suitable for binary classification problems (e.g. two classes). To calculate ROC information, you must change the summaryFunction in your trainControl to be twoClassSummary. This will calculate the Area Under ROC Curve (AUROC) also called just Area Under curve (AUC), sensitivity and specificity.
+ROC is actually the area under the ROC curve or AUC. The AUC represents a models
+ability to discriminate between positive and negative classes. An area of 1.0 represents a model that predicts perfectly. An area of 0.5 represents a model as good as random.</p>
+<ul>
+<li>Sensitivity is the true positive rate also called the recall. It is the number of instances from the positive (first) class that actually predicted correctly.</li>
+<li>Specificity is also called the true negative rate. Is the number of instances from the negative class (second class) that were actually predicted correctly.</li>
+</ul>
+<p>ROC can be broken down into sensitivity and specificity. A binary classification problem is really a trade-off between sensitivity and specificity.</p>
+<div class="sourceCode" id="cb94"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb94-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Area Under ROC Curve</span></span>
+<span id="cb94-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb94-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-3" aria-hidden="true" tabindex="-1"></a>ctrl_cv <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;cv&quot;</span>, <span class="at">number =</span> <span class="dv">5</span>, <span class="at">classProbs =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb94-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-4" aria-hidden="true" tabindex="-1"></a>                        <span class="at">summaryFunction =</span> twoClassSummary)</span>
+<span id="cb94-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-5" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb94-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-6" aria-hidden="true" tabindex="-1"></a>model_glm_cv_roc <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> .,</span>
+<span id="cb94-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-7" aria-hidden="true" tabindex="-1"></a>                      <span class="at">data =</span> satisfy_train,</span>
+<span id="cb94-8"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-8" aria-hidden="true" tabindex="-1"></a>                      <span class="at">metric =</span> <span class="st">&quot;ROC&quot;</span>,</span>
+<span id="cb94-9"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-9" aria-hidden="true" tabindex="-1"></a>                      <span class="at">method =</span> <span class="st">&quot;glm&quot;</span>, <span class="at">family =</span> <span class="st">&quot;binomial&quot;</span>,</span>
+<span id="cb94-10"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb94-10" aria-hidden="true" tabindex="-1"></a>                      <span class="at">trControl =</span> ctrl_cv)</span></code></pre></div>
+</div>
+</div>
+<div id="the-performance-of-machine-learning-algorithms-1" class="section level2" number="2.10">
+<h2><span class="header-section-number">2.10</span> The Performance of Machine Learning Algorithms</h2>
+<p>How do you compare the estimated accuracy of different machine learning algorithms effectively?
+In this lesson you will discover techniques that you can use to compare machine learning algorithms in R.
+it’s time to compare their out-of-sample predictions and choose which one is the best model for your dataset.
+You can compare models in caret using the <code>resamples()</code> function, provided they have the same training data and use the same <code>trainControl</code> object with preset cross-validation folds. <code>resamples()</code> takes as input a list of models and can be used to compare dozens of models at once (though in this case you are only comparing five models).</p>
+<div class="sourceCode" id="cb95"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb95-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create custom indices: myFolds</span></span>
+<span id="cb95-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb95-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-3" aria-hidden="true" tabindex="-1"></a>myFolds <span class="ot">&lt;-</span> <span class="fu">createFolds</span>(satisfy_train<span class="sc">$</span>turnover, <span class="at">k =</span> <span class="dv">5</span>)</span>
+<span id="cb95-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb95-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create reusable trainControl object: myControl</span></span>
+<span id="cb95-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-6" aria-hidden="true" tabindex="-1"></a>myControl <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(</span>
+<span id="cb95-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">summaryFunction =</span> twoClassSummary,</span>
+<span id="cb95-8"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">classProbs =</span> <span class="cn">TRUE</span>, <span class="co"># IMPORTANT!</span></span>
+<span id="cb95-9"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">verboseIter =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb95-10"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">savePredictions =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb95-11"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">index =</span> myFolds</span>
+<span id="cb95-12"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb95-13"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb95-14"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-14" aria-hidden="true" tabindex="-1"></a>model_caret_rpart <span class="ot">&lt;-</span> <span class="fu">train</span>(</span>
+<span id="cb95-15"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-15" aria-hidden="true" tabindex="-1"></a>  turnover <span class="sc">~</span> .,</span>
+<span id="cb95-16"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> satisfy_train,</span>
+<span id="cb95-17"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">metric =</span> <span class="st">&quot;ROC&quot;</span>,</span>
+<span id="cb95-18"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">&quot;rpart&quot;</span>, </span>
+<span id="cb95-19"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">trControl =</span> myControl)</span>
+<span id="cb95-20"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb95-21"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-21" aria-hidden="true" tabindex="-1"></a>model_caret_bagging <span class="ot">&lt;-</span> <span class="fu">train</span>(</span>
+<span id="cb95-22"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-22" aria-hidden="true" tabindex="-1"></a>  turnover <span class="sc">~</span> .,</span>
+<span id="cb95-23"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> satisfy_train,</span>
+<span id="cb95-24"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-24" aria-hidden="true" tabindex="-1"></a>  <span class="at">metric =</span> <span class="st">&quot;ROC&quot;</span>,</span>
+<span id="cb95-25"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-25" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">&quot;treebag&quot;</span>, </span>
+<span id="cb95-26"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">trControl =</span> myControl)</span>
+<span id="cb95-27"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb95-28"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-28" aria-hidden="true" tabindex="-1"></a>model_caret_ranger <span class="ot">&lt;-</span> <span class="fu">train</span>(</span>
+<span id="cb95-29"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-29" aria-hidden="true" tabindex="-1"></a>  turnover <span class="sc">~</span> .,</span>
+<span id="cb95-30"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-30" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> satisfy_train,</span>
+<span id="cb95-31"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-31" aria-hidden="true" tabindex="-1"></a>  <span class="at">metric =</span> <span class="st">&quot;ROC&quot;</span>,</span>
+<span id="cb95-32"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-32" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">&quot;ranger&quot;</span>,</span>
+<span id="cb95-33"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-33" aria-hidden="true" tabindex="-1"></a>  <span class="at">trControl =</span> myControl)</span>
+<span id="cb95-34"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb95-35"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-35" aria-hidden="true" tabindex="-1"></a>model_caret_logistic <span class="ot">&lt;-</span> <span class="fu">train</span>(</span>
+<span id="cb95-36"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-36" aria-hidden="true" tabindex="-1"></a>  turnover <span class="sc">~</span> .,</span>
+<span id="cb95-37"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-37" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> satisfy_train,</span>
+<span id="cb95-38"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-38" aria-hidden="true" tabindex="-1"></a>  <span class="at">metric =</span> <span class="st">&quot;ROC&quot;</span>,</span>
+<span id="cb95-39"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-39" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">&quot;glm&quot;</span>, <span class="at">family =</span> <span class="st">&quot;binomial&quot;</span>,</span>
+<span id="cb95-40"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-40" aria-hidden="true" tabindex="-1"></a>  <span class="at">trControl =</span> myControl)</span>
+<span id="cb95-41"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb95-42"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-42" aria-hidden="true" tabindex="-1"></a>model_caret_gbm <span class="ot">&lt;-</span> <span class="fu">train</span>(</span>
+<span id="cb95-43"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-43" aria-hidden="true" tabindex="-1"></a>  turnover <span class="sc">~</span> .,</span>
+<span id="cb95-44"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-44" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> satisfy_train,</span>
+<span id="cb95-45"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-45" aria-hidden="true" tabindex="-1"></a>  <span class="at">metric =</span> <span class="st">&quot;ROC&quot;</span>,</span>
+<span id="cb95-46"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-46" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">&quot;gbm&quot;</span>,</span>
+<span id="cb95-47"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb95-47" aria-hidden="true" tabindex="-1"></a>  <span class="at">trControl =</span> myControl)</span></code></pre></div>
+<div class="sourceCode" id="cb96"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb96-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb96-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create model_list</span></span>
+<span id="cb96-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb96-2" aria-hidden="true" tabindex="-1"></a>model_list <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">rpart =</span> model_caret_rpart, </span>
+<span id="cb96-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb96-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">rf =</span> model_caret_ranger,</span>
+<span id="cb96-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb96-4" aria-hidden="true" tabindex="-1"></a>                   <span class="at">logistic =</span> model_caret_logistic, </span>
+<span id="cb96-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb96-5" aria-hidden="true" tabindex="-1"></a>                   <span class="at">bagging =</span> model_caret_bagging,</span>
+<span id="cb96-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb96-6" aria-hidden="true" tabindex="-1"></a>                   <span class="at">gbm =</span> model_caret_gbm)</span></code></pre></div>
+<p><strong>caret</strong> provides a variety of methods to use for comparing models. All of these methods are based on the <code>resamples()</code> function. The box-and-whisker plot allows you to compare the distribution of predictive accuracy (in this case AUC) for the two or more models.</p>
+<p>In general, you want the model with the higher median AUC, as well as a smaller range between min and max AUC.</p>
+<p>You can make this plot using the <code>bwplot()</code> function, which makes a box and whisker plot of the model’s out of sample scores. Box and whisker plots show the median of each distribution as a line and the interquartile range of each distribution as a box around the median line. You can pass the metric = “ROC” argument to the <code>bwplot()</code> function to show a plot of the model’s out-of-sample ROC scores and choose the model with the highest median ROC.</p>
+<div class="sourceCode" id="cb97"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb97-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb97-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pass model_list to resamples(): resamples</span></span>
+<span id="cb97-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb97-2" aria-hidden="true" tabindex="-1"></a>resamps <span class="ot">&lt;-</span> <span class="fu">resamples</span>(model_list)</span>
+<span id="cb97-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb97-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb97-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb97-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Summarize the results</span></span>
+<span id="cb97-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb97-5" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(resamps)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## summary.resamples(object = resamps)
+## 
+## Models: rpart, rf, logistic, bagging, gbm 
+## Number of resamples: 5 
+## 
+## ROC 
+##               Min.   1st Qu.    Median      Mean   3rd Qu.      Max. NA&#39;s
+## rpart    0.7020505 0.7157649 0.7546550 0.7424550 0.7622874 0.7775173    0
+## rf       0.8691685 0.8737564 0.8749277 0.8748478 0.8776903 0.8786960    0
+## logistic 0.7962687 0.7971766 0.7984307 0.7983164 0.7992928 0.8004131    0
+## bagging  0.8459675 0.8462392 0.8518077 0.8506775 0.8539794 0.8553938    0
+## gbm      0.8569389 0.8583258 0.8629288 0.8612928 0.8634412 0.8648294    0
+## 
+## Sens 
+##               Min.   1st Qu.    Median      Mean   3rd Qu.      Max. NA&#39;s
+## rpart    0.6645500 0.6861717 0.7300580 0.7518268 0.8108780 0.8674765    0
+## rf       0.7291552 0.7297819 0.7421314 0.7435405 0.7524151 0.7642187    0
+## logistic 0.6736610 0.6952802 0.6979569 0.6952289 0.6998896 0.7093569    0
+## bagging  0.7269464 0.7452388 0.7506902 0.7461349 0.7510351 0.7567642    0
+## gbm      0.7310878 0.7424786 0.7512424 0.7486751 0.7513111 0.7672557    0
+## 
+## Spec 
+##               Min.   1st Qu.    Median      Mean   3rd Qu.      Max. NA&#39;s
+## rpart    0.5480398 0.5911099 0.7030086 0.6840147 0.7868581 0.7910571    0
+## rf       0.7962452 0.8211427 0.8235781 0.8248667 0.8401436 0.8432238    0
+## logistic 0.7614578 0.7615236 0.7653878 0.7650178 0.7669796 0.7697405    0
+## bagging  0.7614578 0.7775324 0.7836047 0.7863854 0.7934843 0.8158476    0
+## gbm      0.7733297 0.8012697 0.8175041 0.8094624 0.8210933 0.8341154    0</code></pre>
+<div class="sourceCode" id="cb99"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb99-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb99-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bwplot</span></span>
+<span id="cb99-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb99-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bwplot</span>(resamps, <span class="at">metric =</span> <span class="st">&quot;ROC&quot;</span>)</span></code></pre></div>
+<p><img src="bookdown-demo_files/figure-html/satis-resamp-1.png" width="672" /></p>
+</div>
+<div id="improving-model-performance-1" class="section level2" number="2.11">
+<h2><span class="header-section-number">2.11</span> Improving Model Performance</h2>
+<p>It is difficult to find a good machine learning algorithm for your problem. But once you do, how do you get the best performance out of it. In this session you will discover three ways that you can tune the parameters of a machine learning algorithm in R. Most machine learning techniques have one or more parameters that need to be set before the learning process begins. These parameters are commonly known as hyperparameters.</p>
+<div id="random-search-1" class="section level3" number="2.11.1">
+<h3><span class="header-section-number">2.11.1</span> Random Search</h3>
+<p>One search strategy that we can use is to try random values within a range. This can be good if we are unsure of what the value might be and we want to overcome any biases we may have for setting the parameter.
+To use random search, another option is available in <code>trainControl</code> called <code>search</code>. Possible values of this argument are <code>"grid"</code> and <code>"random"</code>. The built-in models contained in caret contain code to generate random tuning parameter combinations. The total number of unique combinations is specified by the tuneLength option to train.</p>
+<div class="sourceCode" id="cb100"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb100-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-1" aria-hidden="true" tabindex="-1"></a><span class="co"># random search</span></span>
+<span id="cb100-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb100-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-3" aria-hidden="true" tabindex="-1"></a>ctrl_random <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;repeatedcv&quot;</span> , <span class="at">number=</span><span class="dv">5</span>, </span>
+<span id="cb100-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-4" aria-hidden="true" tabindex="-1"></a>                            <span class="at">repeats =</span> <span class="dv">3</span>, </span>
+<span id="cb100-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-5" aria-hidden="true" tabindex="-1"></a>                           <span class="at">search =</span> <span class="st">&quot;random&quot;</span>)</span>
+<span id="cb100-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-6" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb100-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-7" aria-hidden="true" tabindex="-1"></a>ranger_random <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> ., <span class="at">data=</span>satisfy_train, <span class="at">method=</span><span class="st">&quot;ranger&quot;</span>, </span>
+<span id="cb100-8"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-8" aria-hidden="true" tabindex="-1"></a>                  <span class="at">metric =</span> <span class="st">&quot;Accuracy&quot;</span>, </span>
+<span id="cb100-9"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-9" aria-hidden="true" tabindex="-1"></a>                  <span class="at">tuneLength =</span> <span class="dv">5</span>, <span class="at">verbose =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb100-10"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-10" aria-hidden="true" tabindex="-1"></a>                  <span class="at">trControl =</span> ctrl_random)</span>
+<span id="cb100-11"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb100-11" aria-hidden="true" tabindex="-1"></a>ranger_random</span></code></pre></div>
+<pre><code>## Random Forest 
+## 
+## 9056 samples
+##   23 predictor
+##    2 classes: &#39;Yes&#39;, &#39;No&#39; 
+## 
+## No pre-processing
+## Resampling: Cross-Validated (5 fold, repeated 3 times) 
+## Summary of sample sizes: 7244, 7246, 7245, 7244, 7245, 7246, ... 
+## Resampling results across tuning parameters:
+## 
+##   min.node.size  mtry  splitrule   Accuracy   Kappa    
+##    5              6    extratrees  0.8296153  0.6592304
+##    5              7    extratrees  0.8294681  0.6589360
+##    9              2    gini        0.8224011  0.6448018
+##   12             16    extratrees  0.8208174  0.6416346
+##   15              4    extratrees  0.8064625  0.6129253
+## 
+## Accuracy was used to select the optimal model using the largest value.
+## The final values used for the model were mtry = 6, splitrule = extratrees
+##  and min.node.size = 5.</code></pre>
+</div>
+<div id="grid-search-1" class="section level3" number="2.11.2">
+<h3><span class="header-section-number">2.11.2</span> Grid Search</h3>
+<p>Another search you can use is to define a grid of algorithm parameters to try. Each axis of the grid is an algorithm parameter, and points in the grid are specific combinations of parameters.
+Because we are only tuning one parameter, the grid search is a linear search through a vector of candidate values.</p>
+<div class="sourceCode" id="cb102"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb102-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-1" aria-hidden="true" tabindex="-1"></a><span class="co"># grid search</span></span>
+<span id="cb102-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-2" aria-hidden="true" tabindex="-1"></a>ctrl_grid <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;repeatedcv&quot;</span> , <span class="at">number =</span> <span class="dv">5</span>, </span>
+<span id="cb102-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-3" aria-hidden="true" tabindex="-1"></a>                          <span class="at">repeats =</span> <span class="dv">3</span>, </span>
+<span id="cb102-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-4" aria-hidden="true" tabindex="-1"></a>                          <span class="at">search =</span> <span class="st">&quot;grid&quot;</span>)</span>
+<span id="cb102-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-5" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb102-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-6" aria-hidden="true" tabindex="-1"></a>tune_grid <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>( <span class="at">min.node.size=</span> <span class="fu">seq</span>(<span class="dv">5</span>,<span class="dv">10</span>,<span class="dv">2</span>), </span>
+<span id="cb102-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-7" aria-hidden="true" tabindex="-1"></a>                         <span class="at">mtry=</span> <span class="fu">seq</span>(<span class="dv">2</span>,<span class="dv">7</span>),</span>
+<span id="cb102-8"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-8" aria-hidden="true" tabindex="-1"></a>                         <span class="at">splitrule=</span> <span class="fu">c</span>(<span class="st">&quot;extratrees&quot;</span>,<span class="st">&quot;gini&quot;</span>))</span>
+<span id="cb102-9"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-9" aria-hidden="true" tabindex="-1"></a>ranger_grid <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> ., <span class="at">data =</span> satisfy_train, <span class="at">method =</span> <span class="st">&quot;ranger&quot;</span>, </span>
+<span id="cb102-10"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-10" aria-hidden="true" tabindex="-1"></a>                  <span class="at">metric =</span> <span class="st">&quot;Accuracy&quot;</span>, <span class="at">tuneGrid =</span> tune_grid, </span>
+<span id="cb102-11"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-11" aria-hidden="true" tabindex="-1"></a>                  <span class="at">verbose =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb102-12"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb102-12" aria-hidden="true" tabindex="-1"></a>                  <span class="at">trControl =</span> ctrl_grid)</span></code></pre></div>
+</div>
+<div id="adaptive-resampling-1" class="section level3" number="2.11.3">
+<h3><span class="header-section-number">2.11.3</span> Adaptive Resampling</h3>
+<p>Models can benefit significantly from tuning but the optimal values are rarely known beforehand. train can be used to define a grid of possible points and resampling can be used to generate good estimates of performance for each tuning parameter combination. However, in the nominal resampling process, all the tuning parameter combinations are computed for all the resamples before a choice is made about which parameters are good and which are poor.
+caret contains the ability to adaptively resample the tuning parameter grid in a way that concentrates on values that are the in the neighborhood of the optimal settings.
+To use the adaptive procedure, the trainControl option needs some additional arguments:
+- min is the minimum number of resamples that will be used for each tuning parameter. The default value is 5 and increasing it will decrease the speed-up generated by adaptive resampling but should also increase the likelihood of finding a good model.
+- alpha is a confidence level that is used to remove parameter settings. To date, this value has not shown much of an effect.
+- method is either “<code>gls</code>” for a linear model or “<code>BT</code>” for a Bradley-Terry model. The latter may be more useful when you expect the model to do very well (e.g. an area under the ROC curve near 1) or when there are a large number of tuning parameter settings.
+- complete is a logical value that specifies whether train should generate the full resampling set if it finds an optimal solution before the end of resampling. If you want to know the optimal parameter settings and don’t care much for the estimated performance value, a value of FALSE would be appropriate here</p>
+<div class="sourceCode" id="cb103"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb103-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-1" aria-hidden="true" tabindex="-1"></a><span class="co"># adaptive resampling</span></span>
+<span id="cb103-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-2" aria-hidden="true" tabindex="-1"></a>fitControl <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">&quot;adaptive_cv&quot;</span>, </span>
+<span id="cb103-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-3" aria-hidden="true" tabindex="-1"></a>                           <span class="at">number =</span> <span class="dv">3</span>, <span class="at">repeats =</span> <span class="dv">3</span>,</span>
+<span id="cb103-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-4" aria-hidden="true" tabindex="-1"></a>                           <span class="at">adaptive =</span> <span class="fu">list</span>(<span class="at">min =</span> <span class="dv">2</span>,</span>
+<span id="cb103-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-5" aria-hidden="true" tabindex="-1"></a>                                           <span class="at">alpha =</span> <span class="fl">0.05</span>,</span>
+<span id="cb103-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-6" aria-hidden="true" tabindex="-1"></a>                                           <span class="at">method =</span> <span class="st">&quot;gls&quot;</span>,</span>
+<span id="cb103-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-7" aria-hidden="true" tabindex="-1"></a>                                           <span class="at">complete =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb103-8"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-8" aria-hidden="true" tabindex="-1"></a>                           <span class="at">search =</span> <span class="st">&quot;random&quot;</span>)</span>
+<span id="cb103-9"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb103-10"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-10" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb103-11"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-11" aria-hidden="true" tabindex="-1"></a>ranger_adaptive <span class="ot">&lt;-</span> <span class="fu">train</span>(turnover <span class="sc">~</span> ., <span class="at">data =</span> satisfy_train, </span>
+<span id="cb103-12"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-12" aria-hidden="true" tabindex="-1"></a>                         <span class="at">method =</span> <span class="st">&quot;ranger&quot;</span>, </span>
+<span id="cb103-13"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-13" aria-hidden="true" tabindex="-1"></a>                         <span class="at">trControl =</span> fitControl,</span>
+<span id="cb103-14"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-14" aria-hidden="true" tabindex="-1"></a>                         <span class="at">verbose =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb103-15"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-15" aria-hidden="true" tabindex="-1"></a>                         <span class="at">tuneLength =</span> <span class="dv">7</span>)</span>
+<span id="cb103-16"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb103-16" aria-hidden="true" tabindex="-1"></a>ranger_adaptive</span></code></pre></div>
+<pre><code>## Random Forest 
+## 
+## 9056 samples
+##   23 predictor
+##    2 classes: &#39;Yes&#39;, &#39;No&#39; 
+## 
+## No pre-processing
+## Resampling: Adaptively Cross-Validated (3 fold, repeated 3 times) 
+## Summary of sample sizes: 6038, 6038, 6036, 6037, 6038, 6037, ... 
+## Resampling results across tuning parameters:
+## 
+##   min.node.size  mtry  Accuracy   Kappa      Resamples
+##    5              4    0.8178010  0.6356021  9        
+##    5              6    0.8184270  0.6368542  9        
+##    6             15    0.8145767  0.6291542  4        
+##    9             22    0.8125066  0.6250142  4        
+##   12              2    0.7955600  0.5911199  2        
+##   15              7    0.8127899  0.6255799  2        
+##   16             14    0.8122929  0.6245858  2        
+## 
+## Tuning parameter &#39;splitrule&#39; was held constant at a value of extratrees
+## Accuracy was used to select the optimal model using the largest value.
+## The final values used for the model were mtry = 6, splitrule = extratrees
+##  and min.node.size = 5.</code></pre>
+</div>
+</div>
+<div id="finalize-your-machine-learning-model-1" class="section level2" number="2.12">
+<h2><span class="header-section-number">2.12</span> Finalize Your Machine Learning Model</h2>
+<p>Once you have an accurate model on your test harness you are nearly done. But not yet. There are still a number of tasks to do to finalize your model. The whole idea of creating an accurate model for your dataset was to make predictions on unseen data. There are three tasks you may be concerned with:</p>
+<ul>
+<li>Making new predictions on unseen data.</li>
+<li>Creating a standalone model using all training data.</li>
+<li>Saving your model to file for later loading and making predictions on new data.</li>
+</ul>
+<div class="sourceCode" id="cb105"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb105-1"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Finalize Your Machine Learning Model</span></span>
+<span id="cb105-2"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb105-3"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-3" aria-hidden="true" tabindex="-1"></a>finalModel <span class="ot">&lt;-</span> <span class="fu">randomForest</span>(turnover <span class="sc">~</span> .,</span>
+<span id="cb105-4"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> satisfy_train,</span>
+<span id="cb105-5"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">min.node.size =</span> <span class="dv">5</span>,</span>
+<span id="cb105-6"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">mtry =</span> <span class="dv">6</span>,</span>
+<span id="cb105-7"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">splitrule =</span> <span class="st">&quot;extratrees&quot;</span>,</span>
+<span id="cb105-8"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">verbose =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb105-9"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-9" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb105-10"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-10" aria-hidden="true" tabindex="-1"></a>final_predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(finalModel, satisfy_test,<span class="at">type=</span><span class="st">&quot;class&quot;</span>)</span>
+<span id="cb105-11"><a href="a-study-on-job-satisfaction-and-turnover-behavior.html#cb105-11" aria-hidden="true" tabindex="-1"></a><span class="fu">confusionMatrix</span>(final_predictions, satisfy_test<span class="sc">$</span>turnover, <span class="at">positive=</span> <span class="st">&quot;Yes&quot;</span>)</span></code></pre></div>
+<pre><code>## Confusion Matrix and Statistics
+## 
+##           Reference
+## Prediction  Yes   No
+##        Yes  354  395
+##        No   211 1207
+##                                           
+##                Accuracy : 0.7204          
+##                  95% CI : (0.7009, 0.7392)
+##     No Information Rate : 0.7393          
+##     P-Value [Acc &gt; NIR] : 0.9783          
+##                                           
+##                   Kappa : 0.3437          
+##                                           
+##  Mcnemar&#39;s Test P-Value : 1.055e-13       
+##                                           
+##             Sensitivity : 0.6265          
+##             Specificity : 0.7534          
+##          Pos Pred Value : 0.4726          
+##          Neg Pred Value : 0.8512          
+##              Prevalence : 0.2607          
+##          Detection Rate : 0.1634          
+##    Detection Prevalence : 0.3456          
+##       Balanced Accuracy : 0.6900          
+##                                           
+##        &#39;Positive&#39; Class : Yes             
+## </code></pre>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="a-study-on-determinants-of-employment-status-of-university-graduates-youth.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-literature.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
